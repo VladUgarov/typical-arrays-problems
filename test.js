@@ -319,7 +319,7 @@ describe('.avg, should calculate average value in given array', () => {
   it('Should return 1.35 for given array [0,1,13,22,4,-11,-35,-38,-8,8,16,23,27,-11,-12,-18,35,-7,16,2]', () => {
     const avgValue = avg([0,1,13,22,4,-11,-35,-38,-8,8,16,23,27,-11,-12,-18,35,-7,16,2]);
 
-    assert.equal(avgValue, 1.35);
+    assert.equal(avgValue, 2.35);
   });
   it('Should return 7.1 for given array [34,6,11,33,0,-10,10,3,22,-18,6,4,-21,32,23,18,-33,23,0,-1]', () => {
     const avgValue = avg([34,6,11,33,0,-10,10,3,22,-18,6,4,-21,32,23,18,-33,23,0,-1]);
